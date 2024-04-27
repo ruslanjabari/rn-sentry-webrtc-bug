@@ -4,15 +4,26 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
     "expo": "~50.0.14",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.6"
+    "react-native": "0.73.6",
+    "expo-dev-client": "~3.3.11",
+    "@expo/metro-config": "~0.17.1",
+    "@vapi-ai/react-native": "^0.1.6",
+    "@config-plugins/react-native-webrtc": "8.0.0",
+    "@daily-co/config-plugin-rn-daily-js": "0.0.4",
+    "@daily-co/react-native-daily-js": "0.59.0",
+    "@daily-co/react-native-webrtc": "118.0.3-daily.1",
+    "@react-native-async-storage/async-storage": "^1.22.3",
+    "react-native-background-timer": "^2.4.1",
+    "react-native-get-random-values": "^1.11.0",
+    "@sentry/react-native": "~5.20.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
